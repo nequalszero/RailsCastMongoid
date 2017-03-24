@@ -3,7 +3,9 @@ This is an experiment project testing the waters for using `MongoDB` with `Rails
 
 https://www.youtube.com/watch?v=L0RqU2MdqXU
 
-## Setup
+There are numerous versioning issues that come up and the steps I took to resolve them are listed below.
+
+## Steps
 1. Started new project via `rails _4.2.7_ new MongoidRailsCast --skip-active-record`
 2. Added `gem mongoid` to Gemfile, tutorial suggested `~> 3.0.2` which was most recent at that time; I left it off.
 3. `rails g mongoid:config`
